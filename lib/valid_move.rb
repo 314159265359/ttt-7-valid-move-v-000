@@ -1,7 +1,6 @@
 # code your #valid_move? method here
 def valid_move(board,index)
-  board[index] = holder
-  if holder.between?(0,8) && board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  if board[index].between?(0,8) && board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     return true
   else return false
   end
